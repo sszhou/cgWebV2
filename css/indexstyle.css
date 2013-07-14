@@ -39,7 +39,7 @@ div#latestnews
 }
 div#latestnews:hover
 {
-	overflow:scroll;
+	overflow:visible;
 }
 #columns .column:hover
 {

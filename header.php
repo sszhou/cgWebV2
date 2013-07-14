@@ -98,8 +98,8 @@
 					<li id ="news_page"><a href="news.php">News</a></li>
 					<li id ="scholarship_page"><a href="scholarship.php">Scholarship</a></li>
 				</ul>
+				</div>
 			</div>
-			</div>
-			</div>
+		</div>
 
 		<div id="maincontainer">
