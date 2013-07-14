@@ -19,14 +19,13 @@ a img {
 		font-family:"Lucida Console", Monaco, monospace;
 		font-size:1em;
 		letter-spacing:3px;
-		margin-top:20px;
-		color:#2485df;
-		text-align: right;
+		background-color:#2485df;
+		color:#FFFFFF;
 		line-height: 1.5;
-		margin-right:50px;
-	}	
-#courses h3:first-child{	
-		margin-top:0px;
+		margin-right:100px;
+		width:180px;
+		text-align: right;
+		float:right;
 	}		
 .level
 	{
