@@ -37,10 +37,15 @@ div#latestnews
 {
 	height:200px;
 }
-div#latestnews:hover
+#latestnews > div
 {
-	overflow:visible;
+	position:absolute;
+	z-index:1000;
+	top:0px;
+	height:100px;
+	background-color:red;
 }
+
 #columns .column:hover
 {
 	border-top:15px solid #2485df;

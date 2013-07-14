@@ -5,7 +5,6 @@
          $('#featured').orbit();
      });
 </script>
-
 	<div id="slideshow">
 	    <div id="featured" >
 					<img id="image_1" src="images/showreel/rhee_face.jpg" data-caption="#htmlCaption1" width="1000" height="400"/>
@@ -113,6 +112,8 @@
 				<a href=""><p class="more">More</p></a>
 				</li>
 			</ul>
+			<div id ="up"></div>
+			<div id ="down"></div>
 		</div>
 	</div>	
 	
