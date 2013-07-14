@@ -90,7 +90,9 @@
 						</ul>
 					</li>
 					<li id ="staff_page"><a href="staff.php">Staff</a></li>
-					<li id ="research_page"><a href="research.php">Research</a></li>				</li>					
+					<!--
+					<li id ="research_page"><a href="research.php">Research</a></li>	
+					-->			</li>					
 					<li id ="courses_page"><a href="courses.php">Courses</a></li>
 					<li id ="gallery_page"><a href="gallery.php">Gallery</a></li>
 					<li id ="news_page"><a href="news.php">News</a></li>
