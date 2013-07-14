@@ -1,0 +1,123 @@
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	cursor:pointer;
+}
+
+a img {
+	border:0px;
+}
+#courses {
+	width:860px;
+	margin-left:auto;
+	margin-right:auto;
+}
+		
+.level
+	{
+			clear:both;
+			padding-top:5px;
+	}
+.level h2{
+			margin-bottom:5px;
+			font-family:"Lucida Console", Monaco, monospace;
+			font-size:1.5em;
+			text-align: left;
+			color:#2485df;
+			border-bottom:4px solid #2485df;
+			width:350px;
+			}	
+	.level h3{
+		font-family:"Lucida Console", Monaco, monospace;
+		font-size:0.8em;
+		letter-spacing:3px;
+		margin-top:20px;
+		color:#9B9B9B;
+	}			
+	.course_type
+	{
+		float:left;
+		width:380px;
+		margin-right:40px;
+	}
+	.course_type h2
+	{
+		border:none;
+		margin:0;
+		margin-top:10px;
+		text-align:left;
+		font-size:18px;
+	}
+		#cg_core
+		{
+			//background-color:red;
+		}
+		#cg_comp
+		{
+			//background-color:blue;
+		}
+		#cg_design
+		{
+			//background-color:green;
+		}
+	
+		
+		.course {
+				height:auto;
+				//float:left;		
+				margin:0;		
+				color:#9B9B9B;
+		}
+			p.course_name {
+				font-family:"Lucida Console", Monaco, monospace;
+				font-size:1.2em;
+				text-transform:uppercase;
+				background-color:#f6f6f3;
+			}
+			span.course_code
+			{
+				
+				font-family:"Lucida Console", Monaco, monospace;
+				letter-spacing:2px;
+				font-size:1.2em;
+			}
+
+			p.course_description {
+			
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:0.95em;
+				line-height:1.2em;
+				color:#8E8E8E;
+				max-width:330px;
+				margin-bottom:10px;				
+			}
+			
+			p.more {
+				color:#2485df;
+				width:260px;
+				margin-bottom:10px;
+				text-align:left;
+			}
+			
+			
+	img.line_1 {
+		margin-top:0px;
+		margin-bottom:0px;
+		display: block;
+	}
+			
+	.line_2 {
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+			
+	.line_3 {
+		margin-top:40px;
+			}
+			
+	.line_4 {
+		margin-top:20px;
+			}

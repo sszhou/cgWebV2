@@ -1,0 +1,110 @@
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	cursor:pointer;
+}
+
+a img {
+	border:0px;
+}
+	
+#research {
+	width:880px;
+	margin-left:auto;
+	margin-right:auto;
+}
+		
+	.research_area
+	{
+			clear:both;
+			padding-top:5px;
+		}
+		
+		.research_area h2{
+			font-size:1.5em;
+			line-height:2em;
+			text-align: left;
+			color:#2485df;
+			border-bottom:4px solid #2485df;
+			width:290px;
+			font-family:"Lucida Console", Monaco, monospace;
+			}		
+		p.research_area_description
+		{
+			font-family:"Lucida Console", Monaco, monospace;
+			font-size:1em;
+			line-height:1.2em;
+			color:#6e6e6e;
+			width:270px;
+			margin-right:10px;
+			margin-bottom:100%;
+			padding:0;
+			height:100%;
+			background-color:#f6f6f3;
+		}
+		
+		.l_col
+		{
+			width:300px;
+			float:left;
+		}
+		.r_col
+		{
+			
+		}
+		.research_project {
+				width:240px;
+				height:auto;
+				margin:0 20px;
+				float:left;
+		}
+			
+			p.research_project_name {
+				background-color:#f6f6f3;
+				font-family:"Lucida Console", Monaco, monospace;
+				font-size:1.2em;
+				//color:#9B9B9B;
+				color:#2485df;
+				width:230px;
+				margin:0;
+				padding:0;
+			}
+			p.research_project_description {
+				font-family:Tahoma, Geneva, sans-serif;
+				font-size:15px;
+				line-height:18px;
+				color:#8e8e8e;
+				width:260px;
+				margin-bottom:10px;		
+			}
+			
+			p.more {
+				
+				font-family:"Lucida Console", Monaco, monospace;
+				color:#2485df;
+				width:260px;
+				margin-bottom:10px;
+				text-align:left;
+			}
+			
+			
+	img.line_1 {
+		margin-top:0px;
+		margin-bottom:0px;
+		display: block;
+	}
+			
+	.line_2 {
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+			
+	.line_3 {
+		margin-top:40px;
+			}
+			
+	.line_4 {
+		margin-top:20px;
+			}

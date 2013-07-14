@@ -1,0 +1,86 @@
+	#news {
+		width:620px;
+		margin:10px auto 30px;		
+	} 
+
+			#news h2{
+				margin-bottom:25px;
+				font-size:1.2em;
+				text-align: center;
+				color:#2485df;				
+				font-family:"Lucida Console", Monaco, monospace;
+				letter-spacing:2px;
+				display: block;
+			}
+			
+			#news h4{
+				margin-bottom:0px;
+				font-family:"Lucida Console", Monaco, monospace;
+				font-size:1.2em;
+				color:#2485df;				
+				width:500px;
+			}
+			
+			#news p{
+				font-size:0.9em;
+				color:#8e8e8e;
+				margin-top:5px;
+				margin-bottom:35px;
+				background-color:#f6f6f3;
+			}
+			#news ul li {
+				list-style:none;
+				margin-bottom:10px;
+			}
+			
+			#news ul a {
+			font-family:"Lucida Console", Monaco, monospace;
+			color:#2485df;
+			}
+			#news li a.link
+			{	font-weight:normal;
+				font-size:13px;
+			}
+			
+			#news ul a:hover {
+				color:#ffffff;
+				background-color:#2485df;
+				text-decoration:none;
+			}
+	
+	#news li img.photo
+	{
+		width:500px;
+		text-align:center;
+		margin-left:0;
+		margin-right:0;
+	}	
+	img.line_1 {
+		margin-top:0px;
+		margin-bottom:0px;
+		display:block;
+	}
+			
+	.line_2 {
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+			
+	.line_3 {
+		margin-top:40px;
+			}
+			
+	.line_4 {
+		margin-top:20px;
+			}
+
+
+/*
+    #####################
+	Lightbox Styles 
+	#####################
+*/		
+
+.lb-data .lb-caption {
+	font-weight:normal !important;
+}

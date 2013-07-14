@@ -1,0 +1,103 @@
+
+
+#scholarship {
+	width: 580px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#heading{
+	display: inline;
+}
+	div#heading h2
+	{		
+		text-align:center;
+		float:none;
+	}
+
+	div#heading p{
+		display: block;
+		margin:10px -10px 20px;
+		color: #2485df;
+		font-family:"Lucida Console", Monaco, monospace;
+		font-size: 1em;
+		text-align: left;
+	}
+div#insturctions
+{
+}
+#scholarship h2{
+	color: #2485df;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:1.2em;
+}
+#insturctions h2{
+	padding-top:10px;
+	float: left;
+	text-align: left;
+}
+
+div#insturctions p{
+	color:#8e8e8e;
+	float: left;
+	font-size: 0.95em;
+	text-align: left;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#insturctions a{
+	color: #2485df;
+}
+#insturctions .para, #insturctions p
+{
+	background-color:#f6f6f3;
+}
+#insturctions a:hover;{
+	text-decoration: underline;
+}
+#insturctions img{
+	display: block;
+	width: 60px;
+	float: left;
+	margin-left:-90px;
+}
+#method{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#docinfo{
+	display: inline;
+	float: right;
+}
+
+#value{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#moneyinfo{
+	display: inline;
+	float: right;
+}
+
+#accountability{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#exclaminfo{
+	display: inline;
+	float: right;
+}
+
+#more{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#infoinfo{
+	display: inline;
+	float: right;
+}

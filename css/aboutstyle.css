@@ -1,0 +1,344 @@
+		.text h2 {
+			margin-top:20px;
+			font-family:"Lucida Console", Monaco, monospace;
+			font-size:1.2em;
+		}	
+		#qualification p#intro
+		{			
+				margin:20px 10px 30px;
+				color: #2485df;
+				font-family:"Lucida Console", Monaco, monospace;
+				font-size: 1em;
+				line-height:1em;
+				background-color:white;
+			}
+		
+		#qualification #intro a
+		{
+			color: #2485df;
+		}
+		#qualification #intro a:hover
+		{
+			background-color: #2485df;
+			color:white;
+		}
+			
+			#qualification p
+			{
+				text-align:left;
+			}
+				.text span.link {
+					position:relative;
+				}
+					.text span.link:hover {
+						cursor:pointer;						
+					}
+						.text span.undergrad {
+							margin-right:195px;
+							margin-left:45px;
+							display: inline-block;
+							width:170px;
+						}
+					
+							span.undergrad img.dotted-line {
+								position:absolute;
+								top: 161px;
+								left: 84px;
+								display:none;
+							}
+					
+						.text span.postgrad {
+							margin-right:35px;
+							margin-left:180px;
+							display: inline-block;
+							width:190px;
+							
+						}
+					
+							span.postgrad img.dotted-line {
+								position:absolute;
+								top: 186px;
+								left: -148px;
+								display:none;
+							}
+						
+						.text span.compsci {
+							margin-right:148px;
+							margin-left:0px;
+							display: inline-block;
+							width:260px;
+						}
+
+							span.compsci img.dotted-line {
+								position:absolute;
+								left: 129px;
+								top: 191px;
+								display:none;
+							}
+
+						.text span.design {
+							margin-right:0px;
+							margin-left:148px;
+							display: inline-block;
+							width:260px;
+						}
+
+							span.design img.dotted-line {
+								position:absolute;
+								top: 191px;
+								left: -150px;
+								display:none;
+							}
+			
+						.text span.link p {
+							text-align:center;
+							width:170px;
+							color:#ffffff;
+						}
+					
+						.text span.postgrad p {
+							width:210px;
+							line-height:20px;
+						}
+					
+						.text span.undergrad p {
+							line-height:20px;
+						}
+						
+						.text span img.active {
+							display:block;
+						}
+		
+		.text ul, .text p {
+			font-size:0.95em;
+			color:#8e8e8e;
+			line-height: 1.5em;
+			margin-top: 15px;
+			list-style:none;
+			padding-left:0px;
+			float: left;
+			width: 100%;
+			text-align: center;
+			background-color:#f6f6f3;
+		}
+		div#degree p {
+			background-color: #2485df;
+		}
+		
+		
+		.text ul {
+			margin-top:20px;
+			margin-bottom:50px;
+		}
+		
+		.text ul li {
+			display:inline-block;
+			list-style:none;
+		}
+		
+			#two {
+				margin-left:15px;
+				margin-right:15px;
+			}
+		
+			#three {
+				margin-right:15px;
+			}
+		
+		
+		.text a {
+			font-family:"Lucida Console", Monaco, monospace;
+			font-size:1em;
+			color:#8e8e8e;
+			
+		}
+		
+			.text a span {
+				font-size:12px;
+				display: inline-block;
+				position: relative;
+				top: -2px;
+			}
+		
+				.text a:hover {
+					background-color: #2485df;
+					color:white;
+				}
+
+		#career p {
+			text-align:left;
+		}
+		#career ul {
+			margin-bottom:50px;
+			text-align:left;
+		}
+		
+		#discipline {
+			background-color:#f6f6f6;
+		}
+		
+		#discipline img {
+			margin-top:0px;
+			margin-bottom:50px;
+		}
+		.compsci
+		{
+			float:left;
+		}
+		.design
+		{
+			float:right;
+			}
+		span.link img#compsci:hover, span.link img#design:hover {
+			zoom:1;
+			opacity:0.75;
+			filter: alpha(opacity=85);
+		}
+
+		@-moz-document url-prefix() {
+			#discipline div.text {
+				width:821px !important;
+			}
+		}
+		
+		#degree p {
+			margin-top:10px;
+			margin-bottom:50px;
+		}
+		
+			#small {
+				font-size:0.95em;
+				color:#2485df;
+				line-height:1.3em;
+				margin-top:5px;
+				margin-bottom:20px;
+			}
+		
+		#degree {	
+			background-color:#2485df;
+			display:none;
+		}
+		#degree h2 {
+			color:#ffffff;
+			padding-top:30px;
+		}
+
+		#courses_1, #courses_2, #courses_3, #courses_4 {
+			display:none;
+			background-color:#f6f6f6;
+		}
+
+				#courses_1 .text img, #courses_2 .text img, #courses_3 .text img, #courses_4 .text img, #enrol .text img, #info .text img {
+					margin-left: auto;
+					margin-right: auto;
+					display: block;
+				}
+				
+				.icon {
+					margin-left: auto;
+					margin-right: auto;
+					margin-top:50px;
+				}
+		
+			.list_container {
+				width:820px;
+				margin-left:auto;
+				margin-right:auto;
+			}
+		
+				.list_container ul {
+					/*text-align:left;*/
+					margin:0px;
+					float:none;
+				}
+				
+				.list_container div.col3_left, .list_container div.col3_center, .list_container div.col3_right {
+					float:left;
+					width:auto;
+					margin-top: 0px;
+					margin-bottom: 0px;
+				}
+				
+				.list_container div.col2_left, .list_container div.col2_right{
+					width:auto;
+					float:left;
+					margin-top: 0px;
+					margin-bottom: 0px;
+				}
+					.list_container div.col2_left {
+						margin-left:95px;
+					}
+					
+					.list_container div.col2_right {
+						margin-left:63px;
+					}
+			
+				    div.col3_left ul, div.col3_center ul, div.col3_right ul, div.col2_left ul, div.col2_right ul {
+				        margin-top:30px;
+						margin-bottom:15px;
+				        padding-left:0px
+				    }
+				
+					div.col3_center ul {
+						margin-left:18px;
+						margin-right:18px;
+					}
+					
+					div#courses_1 div.text div.list_container div.col3_center ul {
+						margin-left: 40px;
+						margin-right: 40px;
+					}
+					
+				        .col3_left ul.extra, .col3_center ul.extra, .col3_right ul.extra, .col2_left ul.extra, .col2_right ul.extra {
+				            margin-top:-10px;
+				        }
+
+				        .col3_left ul li, .col3_center ul li, .col3_right ul li, .col2_left ul li, .col2_right ul li {
+							text-align:left;
+				            display:block;
+							font-size: 12px;
+							line-height: 20px;
+				        }
+			
+							.col3_left ul li span, .col3_center ul li span, .col3_right ul li span, .col2_left ul li span, .col2_right ul li span {
+								font-size:18px;
+								color:#8e8e8e;
+							}
+							
+								ul.extra li span {
+									font-size:14px;
+									color:#8e8e8e;
+								}
+
+		
+		#enrol {
+			background-color:#f6f6f6;
+		}
+		
+			#enrol h2, #info h2 {
+				margin-top:20px;
+			}
+			
+				#courses_1 .short, #courses_2 .short, #courses_3 .short, #courses_4 .short, #enrol .short {
+					margin-bottom:5px;
+				}
+		
+		#enrol a, #info a {
+			font-size: 14px;
+			color:#8e8e8e;
+			text-decoration:underline;
+		}
+		
+		#enrol a:hover, #info a:hover {
+			color:#ffffff;
+			background-color:#2485df;
+			text-decoration:none;
+		}
+		
+		#info {
+			background-color:#ffffff;
+		}
+		
+		#courses_1 p, #courses_2 p, #courses_3 p, #courses_4 p, #enrol p, #info p {
+			margin-bottom:50px;
+		}

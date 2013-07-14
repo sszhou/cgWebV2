@@ -1,0 +1,103 @@
+#staff {
+	margin-top:50px;
+	margin-bottom:170px;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	cursor:pointer;
+}
+
+a img {
+	border:0px;
+}
+	
+#profiles {
+	width:820px;
+	margin-left:auto;
+	margin-right:auto;
+}		
+		#profiles h2{
+			margin-top:5px;
+			margin-bottom:20px;
+			text-align: center;
+			color:#2485df;					
+			font-family:"Lucida Console", Monaco, monospace;
+			}
+			
+			.single_profile {
+				width:260px;
+				height:auto;
+				float:left;
+				background-color:#f6f6f3;
+				
+			}
+			.single_profile img {
+				padding-bottom:25px;				
+				height:220px;
+				width:260px;
+			}
+			div.description
+			{
+				border-top:thin dashed #2485df;
+			}
+			div.description:hover
+			{
+				border-top:10px solid #2485df;
+				margin-bottom:-10px;
+			}
+			h3.profile_name {
+				letter-spacing:2px;
+				font-size:1.1em;
+				color:#2485df;
+			}
+			p.interests
+			{
+				margin-top:10px;
+				font-size:0.85em;
+				color:#9e9e9e;
+			}
+
+			p.profile_description {
+				margin-top:5px;
+				font-size:0.95em;
+				color:#8e8e8e;
+				width:250px;
+			}
+			
+			p.more 
+			{
+				color:#2485df;
+			}
+			
+			p.quotes {font-size:13px;
+				line-height:18px;
+				color:#8e8e8e;
+			}
+			
+			#profile_2 {
+				margin-left:20px;
+				margin-right:20px;
+			}
+			
+	img.line_1 {
+		margin-top:0px;
+		margin-bottom:0px;
+		display: block;
+	}
+			
+	.line_2 {
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+			
+	.line_3 {
+		margin-top:40px;
+			}
+			
+	.line_4 {
+		margin-top:20px;
+			}

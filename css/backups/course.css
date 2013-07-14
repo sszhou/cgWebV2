@@ -1,0 +1,123 @@
+#course {
+
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	cursor:pointer;
+}
+
+a img {
+	border:0px;
+}
+	
+#course {
+	width:820px;
+	margin-left:auto;
+	margin-right:auto;
+}
+		.course_header
+		{
+			font-family:TradeGothicBoldCondensed, Helvetica, Arial, "san-serif";
+		}
+			.banner_crop
+			{
+				height:300px;
+				overflow:hidden;
+			}
+			.course_header h2{
+				z-index:5;
+				margin-top:-95px;
+				margin-left:5px;
+				font-size:45px;
+				text-align: left;
+				color:white;
+				
+			}
+			.course_header p
+			{
+				color:#8e8e8e;
+			}
+			.course_header a
+			{
+				color:#2485df;
+			}
+			span.course_name {
+				font-family:TradeGothicBoldCondensed, Helvetica, Arial, "san-serif";
+				font-size:32px;
+				color:white;
+				background-color:black;
+			}
+
+			.course_discription p{
+				font-family:TradeGothic, Helvetica, Arial, "san-serif";
+				font-size:13px;
+				line-height:18px;
+				color:#8e8e8e;
+				margin:10px 0px 20px;
+				width:560px;
+				
+			}
+			
+			.single_project {
+				width:260px;
+				height:auto;
+				float:left;
+				font-family:TradeGothicBoldCondensed, Helvetica, Arial, "san-serif";
+				
+			}
+				.single_project .frame_crop
+				{
+					width:95%;
+					max-height:150px;
+					overflow:hidden;
+					margin-right:10px;
+				}
+				.single_project img{
+					max-width:260px;
+				}
+							
+				.project_number {
+					font-size:13px;
+					margin:10px 0 0 0;
+					color:#8e8e8e;
+				}
+				.project_title {					
+					font-size:15;
+					color:#2485df;
+					margin:0;
+				}
+			
+			p.more {
+				font-family:TradeGothic, Helvetica, Arial, "san-serif";
+				font-size:13px;
+				line-height:18px;
+				color:#2485df;
+				width:260px;
+				margin-bottom:10px;
+				text-align:left;
+			}
+			
+			
+			
+	img.line_1 {
+		margin-top:0px;
+		margin-bottom:0px;
+		display: block;
+	}
+			
+	.line_2 {
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+			
+	.line_3 {
+		margin-top:40px;
+			}
+			
+	.line_4 {
+		margin-top:20px;
+			}
