@@ -12,10 +12,22 @@ a img {
 }
 #courses {
 	width:860px;
-	margin-left:auto;
-	margin-right:auto;
+	margin:0px auto;
+	padding-bottom:200px;
 }
-		
+#courses h3{
+		font-family:"Lucida Console", Monaco, monospace;
+		font-size:1em;
+		letter-spacing:3px;
+		margin-top:20px;
+		color:#2485df;
+		text-align: right;
+		line-height: 1.5;
+		margin-right:50px;
+	}	
+#courses h3:first-child{	
+		margin-top:0px;
+	}		
 .level
 	{
 			clear:both;
@@ -30,13 +42,7 @@ a img {
 			border-bottom:4px solid #2485df;
 			width:350px;
 			}	
-	.level h3{
-		font-family:"Lucida Console", Monaco, monospace;
-		font-size:0.8em;
-		letter-spacing:3px;
-		margin-top:20px;
-		color:#9B9B9B;
-	}			
+
 	.course_type
 	{
 		float:left;
@@ -73,16 +79,17 @@ a img {
 		}
 			p.course_name {
 				font-family:"Lucida Console", Monaco, monospace;
-				font-size:1.2em;
+				font-size:1.1em;
+				margin-bottom:0.5em;
 				text-transform:uppercase;
 				background-color:#f6f6f3;
+				width:280px;
 			}
 			span.course_code
 			{
-				
 				font-family:"Lucida Console", Monaco, monospace;
-				letter-spacing:2px;
-				font-size:1.2em;
+				font-size:0.9em;
+				line-height:1.5;
 			}
 
 			p.course_description {
@@ -92,13 +99,13 @@ a img {
 				line-height:1.2em;
 				color:#8E8E8E;
 				max-width:330px;
-				margin-bottom:10px;				
+				margin-bottom:5px;				
 			}
 			
 			p.more {
 				color:#2485df;
 				width:260px;
-				margin-bottom:10px;
+				margin-bottom:1em;
 				text-align:left;
 			}
 			
