@@ -95,9 +95,8 @@
 	
 	 <div class="videoplaylist">
          <div id="weta_lecture_series">
-			<h2>Victoria University and Weta Digital <span>Computer Graphics Lecture Series</span></h2>
-			<p>This paragraph discribes the Victoria University and Weta Digital Computer Graphics Lecture Series.</p>
-		 </div>
+			<h2>Victoria University and Weta Digital<br/><span>Computer Graphics Lecture Series</span></h2>
+		</div>
 		 <div class ="mainvideo">
 			<div class ="video_crop">
 				<iframe src="http://player.vimeo.com/video/60414897?byline=0&amp;portrait=0&amp;color=ffffff" width="820" height="461" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
@@ -152,7 +151,6 @@
 				<h4>Insights Into Special Effects In Rise of the Planet of the Apes</h4p>
 				<p class="speaker">Joe Letteri</p>				
 			</div>
-			<img class="line_3" src="images/line_2.png" alt="line" height="1" width="820" />
 		 </div>
          
 

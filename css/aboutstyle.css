@@ -1,11 +1,18 @@
+		
+	
+	.text {
+		width:820px !important;
+		margin:20px auto;
+	}
 		.text h2 {
-			margin-top:20px;
 			font-family:"Lucida Console", Monaco, monospace;
 			font-size:1.2em;
-		}	
+			text-align: center;
+			color:#2485df;
+		}
 		#qualification p#intro
 		{			
-				margin:20px 10px 30px;
+				margin:20px 0 30px;
 				color: #2485df;
 				font-family:"Lucida Console", Monaco, monospace;
 				font-size: 1em;
