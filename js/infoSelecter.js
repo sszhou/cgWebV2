@@ -27,6 +27,7 @@
 	function selectInfo(){
 		
 		var attribute, self, parent, fadeSpeed = 10;
+		
 		$('span.link').mouseover(function(){
 			
 			self = $(this);
@@ -36,12 +37,11 @@
 			
 			// If discipline div
 			if(attribute == 'compsci' || attribute == 'design'){
-		
+				
 			
 				disciplineSelection = attribute;		
 					
 				if(courseSelection != null){
-				
 					if(disciplineSelection == 'compsci' && degreeSelection == 'undergrad'){
 
 						if(courseSelection != null){
@@ -93,6 +93,9 @@
 					self.find('img.dotted-line').addClass('active');
 				}
 				$('#degree').fadeIn(fadeSpeed);
+				
+				
+				$('#degree').animate({"opacity":1,"height":430});
 			
 			} else if(attribute == 'undergrad' || attribute == 'postgrad'){ // Or degree div
 				
@@ -139,6 +142,8 @@
 					$('#courses_4').fadeIn(fadeSpeed);
 					courseSelection = 4;
 				} 
+				
+				$('.courseList').animate({"opacity":1});
 			}
 		});		
 	}

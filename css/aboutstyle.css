@@ -1,4 +1,4 @@
-		
+
 	
 	.text {
 		width:820px !important;
@@ -17,7 +17,6 @@
 				font-family:"Lucida Console", Monaco, monospace;
 				font-size: 1em;
 				line-height:1em;
-				background-color:white;
 			}
 		
 		#qualification #intro a
@@ -33,6 +32,7 @@
 			#qualification p
 			{
 				text-align:left;
+				background-color:#f6f6f6;
 			}
 				.text span.link {
 					position:relative;
@@ -49,7 +49,7 @@
 					
 							span.undergrad img.dotted-line {
 								position:absolute;
-								top: 161px;
+								top: 101px;
 								left: 84px;
 								display:none;
 							}
@@ -64,7 +64,7 @@
 					
 							span.postgrad img.dotted-line {
 								position:absolute;
-								top: 186px;
+								top: 126px;
 								left: -148px;
 								display:none;
 							}
@@ -125,8 +125,8 @@
 			padding-left:0px;
 			float: left;
 			width: 100%;
-			text-align: center;
-			background-color:#f6f6f3;
+			text-align: center;			
+			background-color:#f6f6f6;
 		}
 		div#degree p {
 			background-color: #2485df;
@@ -181,7 +181,9 @@
 		}
 		
 		#discipline {
-			background-color:#f6f6f6;
+			width:820px;
+			margin:auto;
+			float:none;
 		}
 		
 		#discipline img {
@@ -198,7 +200,7 @@
 			}
 		span.link img#compsci:hover, span.link img#design:hover {
 			zoom:1;
-			opacity:0.75;
+			opacity:0.5;
 			filter: alpha(opacity=85);
 		}
 
@@ -208,6 +210,24 @@
 			}
 		}
 		
+		
+		
+		#degree {	
+			left:0px;
+			right:0px;
+			display:none;
+			background-color:#2485df;
+			opacity:0;
+			margin:auto;
+			float:none;
+			clear:both;
+			width:820px;
+			height:0px;
+		}
+		#degree h2 {
+			color:#ffffff;
+			padding-top:50px;
+		}
 		#degree p {
 			margin-top:10px;
 			margin-bottom:50px;
@@ -220,19 +240,8 @@
 				margin-top:5px;
 				margin-bottom:20px;
 			}
-		
-		#degree {	
-			background-color:#2485df;
-			display:none;
-		}
-		#degree h2 {
-			color:#ffffff;
-			padding-top:30px;
-		}
-
 		#courses_1, #courses_2, #courses_3, #courses_4 {
 			display:none;
-			background-color:#f6f6f6;
 		}
 
 				#courses_1 .text img, #courses_2 .text img, #courses_3 .text img, #courses_4 .text img, #enrol .text img, #info .text img {
@@ -244,11 +253,11 @@
 				.icon {
 					margin-left: auto;
 					margin-right: auto;
-					margin-top:50px;
 				}
 		
 			.list_container {
 				width:820px;
+				margin-top:-30px;
 				margin-left:auto;
 				margin-right:auto;
 			}
@@ -257,11 +266,13 @@
 					/*text-align:left;*/
 					margin:0px;
 					float:none;
+					
 				}
 				
 				.list_container div.col3_left, .list_container div.col3_center, .list_container div.col3_right {
 					float:left;
 					width:auto;
+					
 					margin-top: 0px;
 					margin-bottom: 0px;
 				}
@@ -281,14 +292,15 @@
 					}
 			
 				    div.col3_left ul, div.col3_center ul, div.col3_right ul, div.col2_left ul, div.col2_right ul {
-				        margin-top:30px;
+				        
 						margin-bottom:15px;
 				        padding-left:0px
 				    }
 				
 					div.col3_center ul {
-						margin-left:18px;
-						margin-right:18px;
+						margin-left:15px;
+						margin-right:15px;
+						max-width:200px;
 					}
 					
 					div#courses_1 div.text div.list_container div.col3_center ul {
@@ -319,7 +331,10 @@
 
 		
 		#enrol {
-			background-color:#f6f6f6;
+			background-color:#f3f3f3;
+			width:820px;
+			float:none;
+			clear:both;
 		}
 		
 			#enrol h2, #info h2 {

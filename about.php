@@ -72,7 +72,7 @@
     	    </div>
     	 </div>
     	 
-    	 <div class="module" id="courses_1">
+    	 <div class="module courseList" id="courses_1">
     	     <div class="text">
     	         <img class="icon" src="images/undergrad.png" alt="Undergraduate Studies" height="60" width="60" />
     	         <p style="color:#2485df;" class="short">The Bachelor of Science (BSc) with a focus in Computer Graphics is a three-year degree.</p>
@@ -125,7 +125,7 @@
     	     </div>
     	 </div>
     	 
-    	 <div class="module" id="courses_2">
+    	 <div class="module courseList" id="courses_2">
      	     <div class="text">
      	         <img class="icon" src="images/postgrad.png" alt="Postgraduate Studies" height="60" width="60" />
      	         <p style="color:#2485df;" class="short">The Master of Science (MSc) with a focus in Computer Graphics is a two-year course of study taught in two distinct sections. The MSc comprises 120 points of coursework, 30 points of which are in Design. This is followed by a 120-point thesis focused on Computer Science.</p>
@@ -169,7 +169,7 @@
      	     </div>
      	 </div>
      	 
-     	 <div class="module" id="courses_3">
+     	 <div class="module courseList" id="courses_3">
      	     <div class="text">
      	         <img class="icon" src="images/undergrad.png" alt="Undergraduate Studies" height="60" width="60" />
      	         <p style="color:#2485df;" class="short">The Bachelor of Design Innovation (BDI) with a focus in Computer Graphics is a three-year degree. Media Design students planning for the Masters in Computer Graphics should complete the required courses in Computer Science and Software Engineering during their undergraduate study.</p>
@@ -227,7 +227,7 @@
      	     </div>
      	 </div>
      	 
-     	 <div class="module" id="courses_4">
+     	 <div class="module courseList" id="courses_4">
      	     <div class="text">
      	         <img class="icon" src="images/postgrad.png" alt="Postgraduate Studies" height="60" width="60" />
      	         <p style="color:#2485df;" class="short">The Master of Design Innovation (MDI) with a focus in Computer Graphics is a two-year course of study taught in two distinct sections. The MDI comprises 150 points of coursework, 30 points of which are in Computer Science. This is followed by a 90-point thesis focused on Design.</p>
@@ -263,12 +263,11 @@
          	            </ul>
          	        </div>
 
-     	        </div>
 
      	          <p>Note: Applicants should have a good first degree in Media Design, or the equivalent, with moderately strong technical skills and sufficient Computer Science courses to undertake graduate study in Computer Graphics. A portfolio is required.</p>
      	     </div>
      	 </div>
-    	 
+    	 </div>
          <div class="module" id="info">
              <div class="text">
                  <img class="icon" src="images/info.png" alt="For Futher Information" height="60" width="60" />
