@@ -1,11 +1,14 @@
 <?php include('header.php'); ?>
+<link rel="stylesheet" type="text/css" href="js/lightbox/css/lightbox.css"/>
+<script type="text/javascript" src="js/lightbox/js/lightbox.js"></script>
 
-
-	<div class="module" id="gallery">
-	    <div id="featured_works">
-             <h2>Gallery</h2>
-	        <img class="line_4" src="images/line_2.png" alt="line" height="1" width="820" />
-             <div id="thumbs">
+	<div class="module" id="gallery">            
+	        <div id="fullpic">
+	        	<img src="images/gallery/311/callus-6-full.png" />    
+	        	</div> 
+	    <div id="featured_works">  
+	    	<div class="thumbs">
+             	<h3>MDDN 311<br/>Student Works</h3>
                  <div class="view">
                      <a href="images/gallery/311/callus-6-full.png" rel="lightbox[projects]" title="Chris Callus &mdash; 6">
                          <img src="images/gallery/311/callus-6-thumb.png" alt="" height="244" width="400" />
@@ -36,6 +39,12 @@
                      </a>
                       <p>Shanshan Zhou &mdash; Cecilia</p>
                  </div>
+              </div>
+              
+             <div class="thumbs">
+             	
+             	<h3>Postgraduate<br/>Student Works</h3>
+
                  <div class="view">
                      <a href="images/gallery/masters/jack-1-full.png" rel="lightbox[projects]" title="Ben Jack">
                      <img src="images/gallery/masters/jack-1-thumb.png" alt="" height="244" width="400" />
@@ -54,16 +63,24 @@
                      </a>
                       <p>Steven Lam</p>
                  </div>
-				<img class="line_4" src="images/line_2.png" alt="line" height="1" width="820" />
-				<h2>Videos</h2>
-		        <img class="line_4" src="images/line_2.png" alt="line" height="1" width="820" />
-				<iframe class="vids"src="http://player.vimeo.com/video/53130081?title=0&amp;byline=0&amp;portrait=0&amp;color=2485df" width="820" height="461" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                 <div class="view">
+                     <a href="images/gallery/masters/mallett-1-thumb.jpg" rel="lightbox[projects]"  title="Byron Mallett">
+                     	<img src="images/gallery/masters/mallett-1-thumb.jpg" alt="" height="244" width="400" />
+                     </a>                     
+                      <p>Byron Mallett &mdash; Tech Bytes</p>
+                 </div>
+				
+             </div>
+        </div>   
+        <!--
+             <div id="videos">
+             	<h2>Videos</h2>
+		        <iframe class="vids"src="http://player.vimeo.com/video/53130081?title=0&amp;byline=0&amp;portrait=0&amp;color=2485df" width="820" height="461" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				<p>Byron Mallett &mdash; Sonoromancy</p>
 				<iframe class="vids" src="http://player.vimeo.com/video/52271144?title=0&amp;byline=0&amp;portrait=0&amp;color=2485df" width="820" height="461" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				<p>Chris Callus &mdash; The Explorer</p>
              </div>
-
-        </div>   
+            -->
     </div>
 
     <?php include('footer.php'); ?>  

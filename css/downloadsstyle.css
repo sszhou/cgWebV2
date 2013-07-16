@@ -9,7 +9,7 @@
 }
 	
 	#downloads {
-		width:700px;
+		width:720px;
 		margin-left:auto;
 		margin-right:auto;
 	} 
@@ -23,20 +23,19 @@
 		}	
 			#downloads h4{
 				margin-bottom:0px;
-				font-size:15px;
+				font-size:1.1em;
 				color:#2485df;
 				font-weight: 400;
 			}
 			
 			#downloads p{
-				font-size:13px;
+				font-size:0.9em;
 				color:#8e8e8e;
 				margin-top:5px;
 				margin-bottom:35px;
 			}
 
 			#downloads > ul {
-				font-size:13px;
 				line-height:18px;
 				color:#8e8e8e;
 				padding-left:0px;
@@ -51,7 +50,6 @@
 			}
 			
 			#downloads > ul a {
-				font-family:TradeGothicBoldCondensed, Helvetica, Arial, "san-serif";
 				font-size:15px;
 				color:#2485df;
 				font-weight: 400;
@@ -62,27 +60,6 @@
 				background-color:#2485df;
 				text-decoration:none;
 			}
-
-			
-	img.line_1 {
-		margin-top:0px;
-		margin-bottom:0px;
-		display:block;
-	}
-			
-	.line_2 {
-		margin-top:40px;
-		margin-bottom:40px;
-	}
-			
-	.line_3 {
-		margin-top:40px;
-			}
-			
-	.line_4 {
-		margin-top:20px;
-			}
-
 
 /*
     #####################

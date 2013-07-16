@@ -1,0 +1,1 @@
+All of these can be rendered in any resolution and at better quality (the graininess is due to fast render settings).

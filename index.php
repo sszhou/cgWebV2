@@ -1,8 +1,14 @@
 <?php include('header.php'); ?>
+<link rel="stylesheet" href="css/orbit-1.2.3.css">
+<link rel="stylesheet" type="text/css" href="css/indexstyle.css" />
+<script type="text/javascript" src="js/jquery.orbit-1.2.3.min.js"></script>
+        
 
 <script type="text/javascript">
-     $(window).load(function() {
+     $(window).load(function() {     
+
          $('#featured').orbit();
+         
      });
 </script>
 	<div id="slideshow">
@@ -75,7 +81,7 @@
 			</a>
 		</div>
 		<div class="column">
-			<a href = "video.php">
+			<a href = "weta_lectures.php">
 			<h4> Victoria University and Weta Digital Computer Graphics Lecture Series </h4>
 			<p>This paragraph discribes the Weta Speakers Series.</p>
 			<p class="more">Read more &rarr;</p>

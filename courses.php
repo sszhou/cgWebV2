@@ -1,5 +1,4 @@
-<?php include('header.php'); ?>
-
+<?php include('header.php'); ?><link rel="stylesheet" type="text/css" href="css/coursesstyle.css" />
 <div id="courses">                
    <div class="level" id="level_1">
 	<h3> BDI | BSc<br/>Undergraduate</h3>

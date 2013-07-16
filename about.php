@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<div id = "about">
+	<div id = "about">
 	<div class="module" id="qualification">
             <div class="text">
 			<h2>What is this qualification?</h2>

@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+<link rel="stylesheet" type="text/css" href="css/downloadsstyle.css" />
 	
 	<div id="downloads">
 		  <h2>Downloads</h2>

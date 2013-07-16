@@ -5,62 +5,75 @@
 */
 
 #gallery {
-	background-color: #f6f6f6;
 	margin:0px;
 }
 	
+
+	#gallery h2{
+			margin-bottom:0px;
+			text-align: center;
+			color:#2485df;			
+		}
 	#featured_works {
-		padding-top:20px;
+		position:relative;padding-top:20px;
 		padding-bottom: 40px;
 		width:820px;
-		margin-left:auto;
-		margin-right:auto;
+		margin:0px auto;
+		background-color: #f6f6f6;
 	} 
-
-		#featured_works h2{
-			margin-top:20px;
-			margin-bottom:0px;
-			font-size:25px;
-			text-align: left;
-			color:#2485df;
-			font-family:TradeGothicBoldCondensed, Helvetica, Arial, "san-serif";
-		}
-			
-			
-	.line_4 {
-		margin-top: 20px;
-		margin-bottom: 0px;
-			}
-			
-
+	#featured_works h3{
+		background-color: #2485df;		
+		color:#FFFFFF;
+		padding:20px auto;
+		width:210px;
+		display:block;
+		font-size: 1em;
+		line-height: 1.5;
+		letter-spacing: 3;
+	} 
 /*
     #####################
 	Other Works Styles 
 	#####################
 */
 
-#thumbs{
-	margin-top: 40px;
-	width: 850px;
+.thumbs{
+	clear:both;
+	float: none;
+	display:block;
 }
 
 .view{
-   width: 400px;
-   height: 300px;
-   margin-right: 20px;
-   margin-bottom: 0px;
+   width: 130px;
+   height:150px;
    float: left;
    overflow: hidden;
    position: relative;
    text-align: center;
-   cursor: default;
+   cursor: default;   
+   margin:1px;
 }
-
+.view img
+{
+	width:200px;
+	height:144px;
+}
+.view:last-child
+{
+	float: none;
+}
 .view p{
-	font-family:TradeGothic, Helvetica, Arial, "san-serif";
-	text-align: left;
-}
-
+			text-align: right;
+			color:#FFFFFF;
+			margin-top:-55px;
+			z-index: 100;
+			background-color: black;
+			position:relative;
+			opacity:0.6;
+			padding:5px;
+			font-size: 0.9em;
+			font-family:"Lucida Console", Monaco, monospace;
+		}
 .view img{
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -80,16 +93,32 @@
 	opacity: .7;
 }
 
-.vids{
-	margin-top:40px;
-}
 
 /*
     #####################
 	Lightbox Styles 
 	#####################
 */		
+#gallery #fullpic
+{
+	position:relative;
+	width:800px;
+	height:300px;
+	overflow:hidden;
+	margin:0px auto;
+	text-align:center;
+}
 
+#gallery #fullpic img,
+#gallery #fullpic iframe
+{
+	position:absolute;
+	left:0px;
+}
+#gallery #fullpic iframe
+{	
+	z-index:100;	
+}
 .lb-data .lb-caption {
 	font-weight:normal !important;
 }

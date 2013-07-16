@@ -78,11 +78,11 @@ a img {
 		}
 			p.course_name {
 				font-family:"Lucida Console", Monaco, monospace;
-				font-size:1.1em;
+				font-size:1.05em;
 				margin-bottom:0.5em;
 				text-transform:uppercase;
 				background-color:#f6f6f3;
-				width:280px;
+				width:250px;
 			}
 			span.course_code
 			{

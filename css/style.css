@@ -67,15 +67,14 @@ font-size:1.2em;
 		background: #2485df;
 		z-index:1000;
 		height:45px;
+		transition:height 1s;
+		-webkit-transition:height 1s;
 	}
 	#header:hover{
-			height:105px;
+			height:118px;
 			overflow:hidden;
-		}
-		#headertext:hover{
-			margin-top:-10px;
-			padding-top:10px;
-		}
+			
+	}
 		#headertext {			
 			color:#ffffff;
 			letter-spacing: -1px;
@@ -85,6 +84,11 @@ font-size:1.2em;
 			margin-left:0;
 			margin-right:0;
 			margin-top:-115px;
+			transition:margin-top 0.8s;			
+			-webkit-transition:margin-top 0.8s;		
+			}
+			#headertext:hover{
+				margin-top:-2px;
 			}
 			#headertext h1 a {
 				margin:0px;
@@ -204,9 +208,6 @@ font-size:1.2em;
 							margin-bottom: 0px;
 							margin-top: 0px;
 						}
-
-
-
 						#darkbox h4 a {font-size:16px;
 							color:#2485df;
 						}

@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-
         <div class="module" id="staff">
             <div id="profiles">
 	           <h2>Staff</h2>
