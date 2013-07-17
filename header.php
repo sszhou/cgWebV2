@@ -23,6 +23,7 @@
 		<link rel="stylesheet" type="text/css" href="css/newsstyle.css" />		
 		<link rel="stylesheet" type="text/css" href="css/scholarshipstyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/weta_lectures.css" />
+		<link rel="stylesheet" type="text/css" href="css/projectstyle.css" />	
 		<!--
 	  	<link rel="stylesheet" type="text/css" href="css/researchstyle.css" />	
 		<link rel="stylesheet" type="text/css" href="css/course.css" />
@@ -97,7 +98,18 @@
 					<li id ="courses_page"><a href="courses.php">Courses</a></li>
 					<li id ="gallery_page"><a href="gallery.php">Gallery</a></li>
 					<li id ="news_page"><a href="news.php">News</a></li>
-					<li id ="scholarship_page"><a href="scholarship.php">Scholarship</a></li>
+					<li class='has-sub' id ="scholarship_page"><a href="scholarship.php">Scholarship</a>
+						<ul>
+					<li class='has-sub '><a href='scholarship.php#weta'><span>Weta Scholarship</span></a>
+							 </li>
+							 <li class='has-sub '><a href='scholarship.php#phd'><span>Victoria Doctoral Scholarship</span></a>
+							 </li>
+							 <li class='has-sub '><a href='scholarship.php#master'><span>Victoria Master Scholarship</span></a>
+							 </li>
+							 <li class='has-sub '><a href='scholarship.php#NZIDRS'><span>NZIDRS</span></a>
+							 </li>	
+						</ul>
+					</li>
 				</ul>
 				</div>
 			</div>

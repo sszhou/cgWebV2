@@ -3,7 +3,7 @@
 	<div class="project">
 		<a id="back" href="staff"><img src="images/staff_research/backarrow.png" alt="Back" height="8"/>Back to profiles</a>
         <h2>Taeyhun Rhee</h2>
-        <p>Taehyun Rhee is a senior lecturer of School of Engineering and Computer Science. He received his PhD in Computer Science from University of Southern California in USA. Before joining Victoria, he was a project leader and senior researcher of 3D Mixed Reality Group at Samsung Advanced Institute of Technology (SAIT) in South Korea from 2008 to 2012. Also, he was a senior engineer of Research Innovation Center at Samsung Electronics from 1996 to 2003.</p>
+        <p><a href = "http://ecs.victoria.ac.nz/Main/TaehyunRhee">Taehyun Rhee</a> is a senior lecturer of School of Engineering and Computer Science. He received his PhD in Computer Science from University of Southern California in USA. Before joining Victoria, he was a project leader and senior researcher of 3D Mixed Reality Group at Samsung Advanced Institute of Technology (SAIT) in South Korea from 2008 to 2012. Also, he was a senior engineer of Research Innovation Center at Samsung Electronics from 1996 to 2003.</p>
         <p>Taehyun Rhee's research concern is to solve scientific problems related to Computer Graphics, Computer Animation, Computer Vision, Medical Imaging. His current research activity is focused on realistic human body modeling and animation, soft-tissue deformation, surface/volume reconstruction from scans, and real-time global illumination.</p>
         
         <img src="images/staff_research/rhee_1.png" alt="Taeyhun Rhee" width="820" style="margin-top:30px;"/>
