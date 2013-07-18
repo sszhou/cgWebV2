@@ -286,9 +286,12 @@
 	     	     <h2>Enrol</h2>
 	     	     <p>Domestic students fill in your online enrolment <a href="http://www.victoria.ac.nz/home/admisenrol/" target="_blank">here</a>.
 	     	     <br/>International students must apply through <a href="http://www.victoria.ac.nz/international/" target="_blank">Victoria International</a>.
-	     	     <br/>Find out about admission requirements for <a href="http://www.victoria.ac.nz/design/study/postgraduate/mdi#graphics" target="_blank">MDI</a> and <a href="http://www.victoria.ac.nz/science/study/postgraduate/msci" target="_blank">MSc</a>.</p>
+	     	     <br/>Find out about admission requirements for <a href="http://www.victoria.ac.nz/design/study/postgraduate/mdi#graphics" target="_blank">MDI</a> and <a href="http://www.victoria.ac.nz/science/study/postgraduate/msci" target="_blank">MSc</a>.
+	     	     </p>
 	     	     </div>
 	     	 </div>
         </div>
 	</div>
-	<?php include('footer.php'); ?>         
+	
+<?php include('return.php'); ?>
+<?php include('footer.php'); ?>         
