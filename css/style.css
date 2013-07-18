@@ -3,6 +3,7 @@ html, body {
 	font-family:Tahoma, Geneva, sans-serif;
 	height:100%;
 	width:100%;
+	min-width:1024px;
 	margin:0;
 	padding:0;
 }
@@ -56,6 +57,7 @@ font-size:1.2em;
 
 #headercontainer {
 	width:100%;
+	min-width:1024px;
 	height:100px;	
 	margin-bottom:40px;
 }
@@ -69,6 +71,8 @@ font-size:1.2em;
 		height:45px;
 		transition:height 1s;
 		-webkit-transition:height 1s;
+		width: 100%;
+		min-width:1024px;
 	}
 	#header:hover{
 			height:118px;
@@ -214,9 +218,9 @@ font-size:1.2em;
 
 #maincontainer {
 	width:100%;
-	overflow:auto;
 	margin-bottom: 30px;-moz-binding;
 	height:auto;
+	overflow:hidden
 }	
 
 
