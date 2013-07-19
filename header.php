@@ -24,10 +24,10 @@
 		<link rel="stylesheet" type="text/css" href="css/scholarshipstyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/weta_lectures.css" />
 		<link rel="stylesheet" type="text/css" href="css/projectstyle.css" />	
+	  	<link rel="stylesheet" type="text/css" href="css/research1style.css" />
 		<!--
 	  	<link rel="stylesheet" type="text/css" href="css/researchstyle.css" />	
 		<link rel="stylesheet" type="text/css" href="css/course.css" />
-		<link rel="stylesheet" type="text/css" href="css/projectstyle.css" />	
 		-->
 		<!--
 		<link rel="stylesheet" href="css/demo-style.css">
@@ -79,7 +79,7 @@
 				<ul>
 					<li class='has-sub' id ="about_page"><a href="about.php">About</a>
 						<ul>
-						<li class='has-sub '><a href='about.php#career'><span>This Qualification</span></a>
+						<li class='has-sub '><a href='about.php#career'><span>Vic CG Programme</span></a>
 							 </li>
 							 <li class='has-sub '><a href='about.php#career'><span>Career Opportunity</span></a>
 							 </li>
@@ -95,6 +95,14 @@
 					<!--
 					<li id ="research_page"><a href="research.php">Research</a></li>	
 					-->							
+					<li class='has-sub' id ="courses_page"><a href="research1.php">Research</a>
+						<ul>
+						<li class='has-sub '><a href='research1.php'><span>Research Highlights</span></a>
+						</li>							
+						<li class='has-sub '><a href="publications.php"><span>Publications</span></a>
+						</li>	
+						</ul>
+					</li>
 					<li id ="courses_page"><a href="courses.php">Courses</a></li>
 					<li id ="gallery_page"><a href="gallery.php">Gallery</a></li>
 					<li id ="news_page"><a href="news.php">News</a></li>

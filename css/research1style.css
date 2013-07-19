@@ -1,0 +1,83 @@
+
+
+#research1 {
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+}
+	#discription{
+	}
+	#discription h2
+	{		
+		text-align:left;
+		width:240px;
+		float:none;
+		clear:both;
+		background-color:#2485df;
+		color:#FFFFFF;
+		padding:10px;
+		margin-bottom:30px;
+	}
+	#discription div
+	{
+		color: #2485df;
+		font-family:"Lucida Console", Monaco, monospace;
+		font-size: 0.9em;
+		margin-left:30px;
+		width:500px;
+	}
+	#discription p{
+		color: #2485df;
+		font-family:"Lucida Console", Monaco, monospace;
+		font-size: 1em;
+		text-align: left;
+		line-height: 1.2em;
+		letter-spacing:0.8px;
+	}
+
+.topics
+{
+	margin-bottom:30px;
+	float:none;
+	clear:both;
+	
+}
+.paper
+{
+	width:230px;
+	height:250px;
+	overflow:hidden;
+	float:left;
+	display:inline;
+	margin:15px;
+	background-color:#f6f6f3;
+}
+.paper img{
+	width: 230px;
+	margin-top:-15px;
+	margin-bottom:5px;
+}
+.paper h2{
+	color: #2485df;
+	font-family:"Lucida Console", Monaco, monospace;
+	letter-spacing:0.8px;
+	font-size: 1em;
+	line-height: 1.1;
+}
+.paper h4{
+	font-size: 0.9em;
+	color:#8e8e8e;
+}
+.paper p{
+	color:#8e8e8e;
+	font-size: 0.95em;
+	text-align: left;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.paper a{
+	//color: #2485df;
+}
+.paper a:hover;{
+	text-decoration: underline;
+}

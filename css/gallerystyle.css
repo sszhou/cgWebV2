@@ -5,7 +5,8 @@
 */
 
 #gallery {
-	margin:0px;
+		width:820px;
+		margin:0px auto;
 }
 	
 
@@ -29,7 +30,7 @@
 		display:block;
 		font-size: 1em;
 		line-height: 1.5;
-		letter-spacing: 3;
+		letter-spacing: 1px;
 	} 
 /*
     #####################
