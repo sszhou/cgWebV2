@@ -270,6 +270,10 @@
 					float:none;
 					
 				}
+				.list_container p {
+					float:left;
+					
+				}
 				
 				.list_container div.col3_left, .list_container div.col3_center, .list_container div.col3_right {
 					float:left;
@@ -291,6 +295,7 @@
 					
 					.list_container div.col2_right {
 						margin-left:63px;
+						min-height:200px;
 					}
 			
 				    div.col3_left ul, div.col3_center ul, div.col3_right ul, div.col2_left ul, div.col2_right ul {
@@ -344,9 +349,6 @@
 				margin-top:20px;
 			}
 			
-				#courses_1 .short, #courses_2 .short, #courses_3 .short, #courses_4 .short, #enrol .short {
-					margin-bottom:5px;
-				}
 		
 		#enrol a, #info a {
 			font-size: 14px;

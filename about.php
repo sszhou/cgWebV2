@@ -119,9 +119,10 @@
 							 <li>30 points at 200-level or above</li>
         	            </ul>
          	        </div>
+         	        <p>NCEA Requirements: Students who do not have 16 NCEA Level 3 credits in Mathematics or equivalent will need to do MATH 132 prior to enrolling in MATH151/161. BDI students who do not have 14 NCEA Level 3 credits in English, History, Art History, Classics, Geography or economics will be required to do WRIT 101/151, which is available in all three trimesters.</p>
+    	     
          	 </div>
     	                
-    	     <p>NCEA Requirements: Students who do not have 16 NCEA Level 3 credits in Mathematics or equivalent will need to do MATH 132 prior to enrolling in MATH151/161. BDI students who do not have 14 NCEA Level 3 credits in English, History, Art History, Classics, Geography or economics will be required to do WRIT 101/151, which is available in all three trimesters.</p>
     	     </div>
     	 </div>
     	 
@@ -129,7 +130,7 @@
      	     <div class="text">
      	         <img class="icon" src="images/postgrad.png" alt="Postgraduate Studies" height="60" width="60" />
      	         <p style="color:#2485df;" class="short">The Master of Science (MSc) with a focus in Computer Graphics is a two-year course of study taught in two distinct sections. The MSc comprises 120 points of coursework, 30 points of which are in Design. This is followed by a 120-point thesis focused on Computer Science.</p>
-
+					
      	        <div class="list_container">
 
          	        <div class="col2_left">
@@ -162,11 +163,12 @@
          	                 <li>COMP 595 Thesis in Computer Graphics (120 points)</li>
          	            </ul>
          	        </div>
-
+				<p>Note: Applicants should have a good first degree in Computer Science, with moderately strong mathematics and sufficient Media Design courses to undertake graduate study in Computer Graphics.</p>
+     	     
      	        </div>
 
-     	     <p>Note: Applicants should have a good first degree in Computer Science, with moderately strong mathematics and sufficient Media Design courses to undertake graduate study in Computer Graphics.</p>
      	     </div>
+     	     
      	 </div>
      	 
      	 <div class="module courseList" id="courses_3">
@@ -220,10 +222,10 @@
         	                 <li>200-level or above</li>
         	            </ul>
          	        </div>
-
+				<p>NCEA Requirements: Students who do not have 16 NCEA Level 3 credits in Mathematics or equivalent will need to do MATH 132 prior to enrolling in MATH151/161. BDI students who do not have 14 NCEA Level 3 credits in English, History, Art History, Classics, Geography or economics will be required to do WRIT 101/151, which is available in all three trimesters.</p>
+     	     
      	        </div>
 
-     	     <p>NCEA Requirements: Students who do not have 16 NCEA Level 3 credits in Mathematics or equivalent will need to do MATH 132 prior to enrolling in MATH151/161. BDI students who do not have 14 NCEA Level 3 credits in English, History, Art History, Classics, Geography or economics will be required to do WRIT 101/151, which is available in all three trimesters.</p>
      	     </div>
      	 </div>
      	 
@@ -262,7 +264,6 @@
          	                 <li>DSDN 463 Practicum</li>
          	            </ul>
          	        </div>
-
 
      	          <p>Note: Applicants should have a good first degree in Media Design, or the equivalent, with moderately strong technical skills and sufficient Computer Science courses to undertake graduate study in Computer Graphics. A portfolio is required.</p>
      	     </div>
