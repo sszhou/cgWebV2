@@ -1,6 +1,7 @@
 html, body {
     background-color:#ffffff;
 	font-family:Tahoma, Geneva, sans-serif;
+	color:#8E8E8E;
 	height:100%;
 	width:100%;
 	min-width:1024px;
@@ -15,7 +16,10 @@ a {
 a:hover {
 	cursor:pointer;
 }
-
+a:visited
+{
+	color:inherit;
+}
 a img {
 	border:0px;
 }
@@ -41,6 +45,9 @@ h1, h2, h3, h4 {
 h2
 {
 font-size:1.2em;
+}
+li, ul{
+	 list-style-type:none;
 }
 #wrap {
 	margin: 0px auto;

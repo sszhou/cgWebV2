@@ -16,9 +16,11 @@
 		
 	
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/coursesstyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/headerHover.css"/>
 		<link rel="stylesheet" type="text/css" href="css/aboutstyle.css" />
-		<link rel="stylesheet" type="text/css" href="css/staffstyle.css" />
+		<link rel="stylesheet" type="text/css" href="css/staffstyle.css" />		
+		<link rel="stylesheet" type="text/css" href="css/studentstyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/gallerystyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/newsstyle.css" />		
 		<link rel="stylesheet" type="text/css" href="css/scholarshipstyle.css" />
@@ -93,7 +95,14 @@
 							 </li>	
 						</ul>
 					</li>
-					<li id ="staff_page"><a href="staff.php">Staff</a></li>
+					<li class='has-sub' id ="staff_page"><a href="staff.php">People</a>
+						<ul>
+						<li class='has-sub '><a href='staff.php'><span>Staff</span></a>
+						</li>							
+						<li class='has-sub '><a href="students.php"><span>Students</span></a>
+						</li>	
+						</ul>
+					</li>
 					<!--
 					<li id ="research_page"><a href="research.php">Research</a></li>	
 					-->							

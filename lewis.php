@@ -39,9 +39,7 @@
         </br>Lagae et al., A Survey of Procedural Noise Functions, Computer Graphics Forum 29, 8, 2010
         <!-- </br>Lewis, Mostafavi, West, Sosinsky, Martone, Shape Priors by Kernel Density Modeling of PCA Residual Structure, ICIP 2007 -->
         </br>Lewis, McGuire, Fox, Mapping the Mental Space of Game Genres, ACM Sandbox 2007</p>
-            
-        <img class="line_3" src="images/line_2.png" alt="line" height="1" width="820" />
-		
+        
     </div>   
 	<?php include('return.php'); ?>
 	<?php include('footer.php'); ?>

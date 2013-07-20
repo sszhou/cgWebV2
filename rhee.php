@@ -24,9 +24,7 @@
         </br>Real-time rendering and global illumination; renfinity 3D, a rendering platform customized to industrial design of consumer electronics devices.
         </br>Photo-realistic rendering library for industrial design (collaboration with Visual Innovation Co. in USA).
         </br>Volume visualization; visualization of medical volume data using distributed volume rendering.</p>
-             
-         <img class="line_3" src="images/line_2.png" alt="line" height="1" width="820" />
-		 
+        
     </div>   
 <?php include('return.php'); ?>
 	<?php include('footer.php'); ?>

@@ -19,10 +19,6 @@
         <p class="author">&mdash; My Kinky Side</p>
         <p>This is an installation that explores identity encoding through hair.  Shown above are stills from a hair sculpture and a generative drawing based on kinky hair.  The generative drawing utilized strands of Rhazes's extracted hair to generate NURBS curves.  The knot vectors of the resulting curves where then used to generate kinking and unkinking motion of the hair strands.</p>
 
-             
-         <img class="line_3" src="images/line_2.png" alt="line" height="1" width="820" />
-		
-
     </div>   
 	<?php include('return.php'); ?>
 	<?php include('footer.php'); ?>

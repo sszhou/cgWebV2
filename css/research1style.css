@@ -16,8 +16,6 @@
 		color:#FFFFFF;
 		padding:10px;
 	}
-	#research1 .discription{
-	}
 	
 	#research1 .discription h2
 	{		
@@ -29,9 +27,10 @@
 		color:#2485df;
 		border-bottom:4px solid #2485df;
 		text-transform:uppercase;
-		padding:5px;
-		margin-left:5px;
-		margin-bottom:30px;
+		padding-bottom:5px;
+		margin-left:10px;
+		margin-bottom:20px;
+		margin-top:10px;
 	}
 	#research1 .discription div
 	{
@@ -41,21 +40,12 @@
 		margin-left:30px;
 		width:500px;
 	}
-	#research1 .discription p{
-		color: #2485df;
-		font-family:"Lucida Console", Monaco, monospace;
-		font-size: 1em;
-		text-align: left;
-		line-height: 1.2em;
-		letter-spacing:0.8px;
-	}
 
 .topics
 {
 	margin-bottom:50px;
 	float:none;
 	clear:both;
-	
 }
 .paper
 {
@@ -85,7 +75,7 @@
 }
 .paper p{
 	color:#8e8e8e;
-	font-size: 0.95em;
+	font-size: 0.85em;
 	text-align: left;
 	font-family:Tahoma, Geneva, sans-serif;
 }
