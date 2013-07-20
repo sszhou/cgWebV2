@@ -37,9 +37,23 @@ const step = 15;
    });
   // <iframe class="vids"src="http://vimeo.com/62297998" width="820" height="461" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
+$("#gallery .batch").hover
+(	function(){
+	var expose = 100;
+	if($(this).find(".thumbs img").length > 4)
+		expose = 200;	
+	$(this).find(".thumbs").stop().delay(500).animate({height:expose});
+	},
+	function(){
+		$(this).find(".thumbs").stop().delay(500).animate({height:50});
+	}
+);
 $("#gallery .thumbs .view").mousemove(function(e) { 
+	
 	var src = $(this).find("a").attr("href");	
-	$("#gallery #fullpic img").attr("src",src).css({"margin-top":-300*(e.pageY-h*0.5)/h});
+	$("#gallery #fullpic img").attr("src",src);
+	$("#gallery #fullpic p").html($(this).find("p").html());
+	
 	
 	/*
  	if(e.pageX <= w*0.5)

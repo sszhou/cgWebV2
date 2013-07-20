@@ -1,5 +1,5 @@
 	#news {
-		width:620px;
+		width:350px;
 		margin:10px auto 30px;		
 	} 
 
@@ -14,27 +14,58 @@
 			}
 			
 			#news h4{
-				margin-bottom:0px;
+				text-transform:uppercase;
 				font-family:"Lucida Console", Monaco, monospace;
-				font-size:1.2em;
-				color:#2485df;				
-				width:500px;
+				font-size:1.1em;
+				color:#555555;			
+				width:520px;
+				margin-left:-240px;
+				width:230px;
+				text-align:left;
+				padding-bottom:5px;
+				border-bottom:4px solid #555555;	
+				
+			}
+			#news h5{
+				margin-left:-230px;
+				font-weight: normal;
+				font-family:"Lucida Console", Monaco, monospace;
+				font-size:1.1em;
+				letter-spacing:3px;
+				margin-top:0px;				
+				margin-bottom:0px;
+				color:#555555;
 			}
 			
 			#news p{
 				font-size:0.9em;
 				color:#8e8e8e;
 				margin-top:5px;
-				margin-bottom:35px;
+				margin-bottom:20px;
 				background-color:#f6f6f3;
+			}
+			#news p.source{
+				font-size:0.8em;
+				margin-bottom:5px;
+			}
+			#news ul
+			{
+				width:500px;
 			}
 			#news ul li {
 				list-style:none;
-				margin-bottom:10px;
+				padding-bottom:20px;
+				border-bottom:thin dashed #8e8e8e;
 			}
+			#news ul li:last-child
+			{
+				border-bottom:none;
+			}
+			#news a {
+				color: inherit;
+			}
+			#news ul p a {
 			
-			#news ul a {
-			font-family:"Lucida Console", Monaco, monospace;
 			color:#2485df;
 			}
 			#news li a.link

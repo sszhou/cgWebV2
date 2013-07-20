@@ -1,7 +1,6 @@
 <?php include('header.php'); ?>
 
 <div id="research1">	
-		<a href ="publications.php"><h2 id="publication">List of Publications</h2> 
 		<div id="rhee">
 		<div class="discription">	
 			<h2>Taeyhun Rhee</h2> 
@@ -9,7 +8,7 @@
 		<div class="topics">
 			<div class="paper"> 
 				<a href="pdfs/research/real-time_facial_animation.pdf">
-					<img src="images/research/rhee/facial.jpg">				
+					<img src="images/research/rhee/facial.jpg" >				
 					<h2>Real-time Facial Animation from Live Video Tracking</h2> 
 					<p>ACM SIGGRAPH | Eurographics Symposium of Computer Animation 2012</p></a>
 			</div>
@@ -81,6 +80,9 @@
 					<p>SIGGRAPH 2003 | ACM Transactions on Graphics 2003</p></a>
 			</div>
 		</div>
+		<a href ="publications.php">
+			<h2 id="publication">List of Publications</h2> 
+		</a>
 	</div>
 	
 		

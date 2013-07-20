@@ -14,7 +14,6 @@
 
 		<title>Computer Graphics, Victoria University of Wellington, New Zealand</title>
 		
-	
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/coursesstyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/headerHover.css"/>

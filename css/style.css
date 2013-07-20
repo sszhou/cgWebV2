@@ -73,7 +73,7 @@ li, ul{
 		left:0;
 		right:0;
 		text-align:center;		
-		background: #2485df;
+		background: #333333;
 		z-index:1000;
 		height:45px;
 		transition:height 1s;
@@ -143,7 +143,7 @@ li, ul{
 			#headerLinks a {
 				font-family:"Lucida Console", Monaco, monospace;
 				padding:0px 10px;
-				color:#2485df;
+				color:#555555;
 				font-size:1.1em;
 				letter-spacing: 2.2px;
 				border-bottom:thin dashed #2485df;
@@ -360,7 +360,7 @@ li, ul{
 				margin-right:auto;	
 				text-align:center;
 				font-size:18px;
-				color:#2485df;
+				color:#333333;
 			}
 
 			#return:hover {
@@ -378,7 +378,8 @@ li, ul{
 			bottom:0px;
 		}			
 		#inner_footer {
-			background-color:#2485df;
+			background: #333333;
+			opacity:1;
 			margin-bottom:0px;
 			padding-bottom:0px;
 			width:100%;
