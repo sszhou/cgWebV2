@@ -24,7 +24,9 @@
 		<link rel="stylesheet" type="text/css" href="css/scholarshipstyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/weta_lectures.css" />
 		<link rel="stylesheet" type="text/css" href="css/projectstyle.css" />	
-	  	<link rel="stylesheet" type="text/css" href="css/research1style.css" />
+	  	<link rel="stylesheet" type="text/css" href="css/research1style.css" />	  	
+		<link rel="stylesheet" type="text/css" href="css/publicationsstyle.css" />
+		<link rel="stylesheet" type="text/css" href="css/downloadsstyle.css" />
 		<!--
 	  	<link rel="stylesheet" type="text/css" href="css/researchstyle.css" />	
 		<link rel="stylesheet" type="text/css" href="css/course.css" />

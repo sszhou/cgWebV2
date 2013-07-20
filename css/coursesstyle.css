@@ -2,7 +2,10 @@
 a {
 	text-decoration:none;
 }
-
+a:visited
+{
+	color:inherit;
+}
 a:hover {
 	cursor:pointer;
 }
@@ -11,7 +14,7 @@ a img {
 	border:0px;
 }
 #courses {
-	width:860px;
+	width:840px;
 	margin:0px auto;
 	padding-bottom:200px;
 }
@@ -23,7 +26,6 @@ a img {
 		color:#FFFFFF;
 		line-height: 1.5;
 		margin-right:100px;
-		width:180px;
 		text-align: right;
 		float:right;
 	}		
@@ -71,8 +73,8 @@ a img {
 	
 		
 		.course {
+				padding-top:10px;
 				height:auto;
-				//float:left;		
 				margin:0;		
 				color:#9B9B9B;
 		}

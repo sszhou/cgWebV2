@@ -47,6 +47,7 @@
 			
 			#downloads > ul li {
 				list-style:none;
+				background-color:#F6F6F3;
 			}
 			
 			#downloads > ul a {

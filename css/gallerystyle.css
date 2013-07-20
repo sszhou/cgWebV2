@@ -23,12 +23,13 @@
 		background-color: #f6f6f6;
 	} 
 	#featured_works h3{
-		background-color: #2485df;		
-		color:#FFFFFF;
-		padding:20px auto;
+		color: #2485df;		
+		border-bottom:4px solid #2485df;
+		text-transform:uppercase;
+		padding:5px auto;
 		width:210px;
 		display:block;
-		font-size: 1em;
+		font-size: 1.2em;
 		line-height: 1.5;
 		letter-spacing: 1px;
 	} 
