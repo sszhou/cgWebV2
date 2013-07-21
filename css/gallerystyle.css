@@ -103,7 +103,8 @@
 	text-align:center;
 	float:right;
 	display:inline;
-	margin-top:30px;
+	margin-top:10px;
+	border:15px solid #F6F6F3;
 }
 
 #gallery #fullpic img

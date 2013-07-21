@@ -34,9 +34,9 @@
 			<h1>FEATURED PROJECT</h1>
 				<div class ="discription">
 					<a href ="http://schoolofdesign.ac.nz/sod/portfolio/project.php?id=1129">
-					<P class="title">Post-Vandalism</p>
-					<p class = "author">Maurizio Frances</p>
+					<P class="title">Post-Vandalism</p>						
 					<p>MDDN311 | Project 1: Tag Wellington</p>
+					<p class = "author">Maurizio Frances</p>
 					<p>Though the relationship between the often elitist world of art and graffiti culture is still uneasy, has it finally been accepted as a legitimate form of artistic expression?</p>
 					</a>
 				</div>
@@ -57,8 +57,8 @@
 				<div class ="discription">
 					<a href="http://schoolofdesign.ac.nz/sod/portfolio/project.php?id=1145">
 					<p class ="title">Zobeide</p>
-					<p class = "author">Christopher Callus</p>
 					<p>MDDN 331 | Project 2: The Genesis</p>	
+					<p class = "author">Christopher Callus</p>
 					</a>
 				</div>
 			</div>
@@ -91,8 +91,8 @@
 			<ul>
 			<h2><a href = "news.php">Latest News</a></h2>
 			<li><h4>Weta PhD Scholarship Signing</h4>
-				<p>3/2013 — Now, a new PhD scholarship in Computer Graphics has been established at Victoria by the leading visual effects company. <a href=""><p class="more">More</p></a>
-				</p>
+				<p>3/2013 — Now, a new PhD scholarship in Computer Graphics has been established at Victoria by the leading visual effects company.</p>
+				<a href="news.php"><p class="more">More</p></a>
 			</li>
 			<li><h4><a href ="http://www.oscars.org/awards/scitech/">The Academy Sci-Tech Awards in 2013</a></h4>
 				<p>2/2013 — One of our computer graphics teachers received a <a class = "link"  href="http://www.oscars.org/awards/scitech/">Sci-Tech Academy Award</a> this February. 
@@ -100,14 +100,14 @@
 			</li>
 			  <li><h4>Student presentation at Weta</h4>
 				<p>2/2013 — Students from <a class = "link" href ="http://www.victoria.ac.nz/ecs/study/courses/comp-308">COMP308</a> visited Weta Digital in January to show their final projects. </p>
-				<a href=""><p class="more">More</p></a>
+				<a href="news.php"><p class="more">More</p></a>
 			</li>
 			
 			  <li><h4><a href="http://computergraphics.ac.nz/staff">First permanent faculty start</a></h4>
 				<p>7/2012 — The first full-time faculty for the graphics programme started
 				in Trimester 2. 
 				</p>
-				<a href=""><p class="more">More</p></a>
+				<a href="news.php"><p class="more">More</p></a>
 				</li>
 
 			  <li><h4>COMP 440,441 Students show work</h4>

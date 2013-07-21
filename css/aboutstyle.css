@@ -12,16 +12,30 @@
 		.text h2 {
 			font-family:"Lucida Console", Monaco, monospace;
 			font-size:1.2em;
+			line-height:1.35;
 			text-align: center;
 			color:#2485df;
+			border-bottom:4px solid #2485df;
+			width:300px;
+			margin:20px auto;
+			padding-bottom:5px;
+			text-transform:uppercase;
+		}
+		#qualification h2
+		{
+			width:450px;
 		}
 		#qualification p#intro
 		{			
-				margin:20px 0 30px;
+				margin:20px auto 30px;
+				width:700px;
+				text-align:center;
 				color: #2485df;
 				font-family:"Lucida Console", Monaco, monospace;
 				font-size: 1em;
-				line-height:1em;
+				line-height:1.2em;
+				background-color:#FFFFFF;
+				
 			}
 		
 		#qualification #intro a
@@ -35,8 +49,10 @@
 		}
 			
 			#qualification p
-			{
-				text-align:left;
+			{	
+				margin:20px auto 30px;
+				width:680px;
+				text-align:center;
 				background-color:#f6f6f6;
 			}
 				.text span.link {

@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 	<div id="students">
-		<h2>Current Students</h2>
+		<h2>Students</h2>
 		<div>
 			<h2>PhD</h2>
 			<ul>
@@ -8,7 +8,7 @@
 					<p>Victoria Doctoral Scholarship</p>
 					<p>PhD 2013</p>
 					</li>
-				<li>Richard Robert 
+				<li>Richard Roberts 
 					<p>Victoria Doctoral Scholarship</p>
 					<p>PhD 2013</p>
 				</li>
@@ -22,7 +22,7 @@
 		<div>
 			<h2>MSc <br/><span>in Computer Graphics</span></h2>
 			<ul>
-				<li>Craig Spance 
+				<li>Craig Spence
 					<p>Victoria Master's (by thesis) Scholarship
 					<p>MSc 2013</p></li>
 				</li>

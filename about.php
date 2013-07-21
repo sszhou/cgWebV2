@@ -2,7 +2,7 @@
 	<div id = "about">
 	<div class="module" id="qualification">
             <div class="text">
-			<h2>What is this qualification?</h2>
+			<h2>What is Victoria University<br/>Computer Grphics Programme?</h2>
             <p id="intro">The <a href ="http://www.victoria.ac.nz/design">School of Design</a> and the <a href ="http://www.victoria.ac.nz/ecs/"> School of Engineering and Computer Science</a> have together introduced a new Masters qualification in Computer Graphics. Uniting design and computation, this degree blends computer programming and scripting processes with studio approaches to deliver cutting edge computer graphics compositions. </p>
 			<p>The programme was developed in close collaboration with Wellington's internationally recognised entertainment and digital technology sectors. </p>
 			<p>This relationship with industry leaders such as <a href="http://www.wetafx.co.nz" target="_blank">Weta Digital</a> (Lord of the Rings, Avatar), <a href="http://www.sidheinteractive.com" target="_blank">Sidhe</a> (game development), and <a href="http://www.unlimitedrealities.com" target="_blank">Unlimited Realities</a> (advanced interaction design) will be continued in the programme through consultations, guest lectures, and internship opportunities.</p>

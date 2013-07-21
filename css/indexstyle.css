@@ -28,8 +28,7 @@
 	margin-left:40px;
 	padding-top:20px;
 	border-top:thin dashed #2485df;
-	background-color:#f6f6f3;
-	
+	background-color:#f6f6f3;	
 	height:250px;
 	
 }
@@ -64,25 +63,28 @@ div#latestnews
 #columns h4, #columns h2
 {
 		font-weight:normal;
-		letter-spacing:1.2px;
+		letter-spacing:1px;
+		line-height:1.3;
 		font-size:1.1em;		
 		color:#2485df;
 		margin:0;
 		}
 	#columns h4
 	{
-		margin-top:15px;
+		margin-top:5px;
 	}
 	#columns p{
-	font-family:Tahoma, Geneva, sans-serif;
+				font-family:Tahoma, Geneva, sans-serif;
 				font-size:0.95em;
 				line-height:1.2em;
 				color:#8e8e8e;
 				margin-top:13px;
 				margin-right:20px;
 			}
-	#columns p.more {
+	#columns ul li p.more {
 				color:#2485df;
+				padding: 10px 5px 15px 0px;
+				font-size:0.8em;
 			}		
 		#columns .column ul {
 				font-size:0.95em;
