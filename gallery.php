@@ -50,7 +50,7 @@
              	<h3>COMP 408<br/>Student Works</h3>
 	    		<div class="thumbs">
              	<div class="view">
-                     <a href="images/gallery/408/group1.jpg" rel="lightbox[projects]" title="COMP 408<br/>Andrew Chalmers, Ian Loh & Craig Spence">
+                     <a href="images/gallery/408/group1.jpg" rel="lightbox[projects]" title="COMP 408<br/>Andrew Chalmers, Ian Loh &  Kieran Carnegie">
                          <img src="images/gallery/408/group1.jpg" alt="" height="244" width="400" />
                     </a>
                      <p>This image is a composition of virtual objects into a photograph. Can you distinguish which objects were rendered?</p>
