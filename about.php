@@ -1,4 +1,6 @@
 <?php include('header.php'); ?>
+<script type="text/javascript" src="js/infoSelecter.js"></script>
+
 	<div id = "about">
 	<div class="module" id="qualification">
             <div class="text">

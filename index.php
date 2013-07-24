@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="css/orbit-1.2.3.css">
 <link rel="stylesheet" type="text/css" href="css/indexstyle.css" />
 <script type="text/javascript" src="js/jquery.orbit-1.2.3.min.js"></script>
+<script type="text/javascript" src="js/news.js"></script>
         
 
 <script type="text/javascript">

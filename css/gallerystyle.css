@@ -5,7 +5,7 @@
 */
 
 #gallery {
-		width:950px;
+		width:900px;
 		margin:0px auto;
 }
 	
@@ -16,7 +16,8 @@
 			color:#2485df;			
 		}
 	#featured_works {
-		position:relative;padding-top:20px;
+		position:relative;
+		padding-top:20px;
 		padding-bottom: 40px;
 		width:350px;
 		float:left;
@@ -94,7 +95,7 @@
 	Lightbox Styles 
 	#####################
 */		
-#gallery #fullpic
+#gallery #preview
 {
 	position:relative;
 	width:500px;
@@ -103,16 +104,16 @@
 	text-align:center;
 	float:right;
 	display:inline;
-	margin-top:10px;
+	padding:0px;
 	border:15px solid #F6F6F3;
 }
 
-#gallery #fullpic img
+#gallery #preview img
 {
 	margin-left:-150px;
 	height:500px;
 }
-#gallery #fullpic p
+#gallery #preview p.caption
 {
 	margin-top:-100px;
 	color:#FFFFFF;
@@ -127,9 +128,72 @@
 	height:100px;
 	line-height:1.5;
 }
-#gallery #fullpic iframe
-{	
+
+#gallery a.btn {	
+	position:absolute;
 	z-index:100;	
+	display: block; 
+	background-position: top; 
+	text-indent: -9999px; 
+}
+#gallery #preview #play
+{
+	opacity:0.65;
+	margin-top: 200px;
+	margin-left:205px;
+	width: 100px; 
+	height: 100px; 
+	background-image: url('../images/play.png');
+	background-size:80px 100px;
+	background-repeat:no-repeat;
+}
+#gallery .fullview #close
+{	
+	opacity:0.65;
+	right:0px;
+	bottom:20px;
+	width: 35px; 
+	height:35px; 
+	background-image: url('../images/close.png');
+	background-size:30px 30px;
+	background-repeat:no-repeat;
+}
+#gallery .fullview
+{	
+	position:absolute;
+	z-index:10;	
+	width:820px;
+	margin:0px auto;
+}
+#gallery .fullview div#framing
+{
+	max-height:450px;
+	width:800px;
+	overflow:hidden;
+	padding:20px;
+	background-color:#333333;
+}
+#gallery .fullview img
+{	
+	width:800px;
+}
+#gallery .fullview iframe
+{	
+	padding:20px;	
+	background-color:#333333;
+	position:relative;
+	overflow:hidden;
+	border:none;
+}
+#gallery .fullview p{
+	z-index: 100;
+	width:800px;
+	padding:20px 20px;
+	font-size:0.9em;
+	line-height:1.5;
+	font-family:"Lucida Console", Monaco, monospace;
+	color: #FFFFFF;
+	background-color:#333333;
 }
 .lb-data .lb-caption {
 	font-weight:normal !important;

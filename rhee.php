@@ -26,5 +26,5 @@
         </br>Volume visualization; visualization of medical volume data using distributed volume rendering.</p>
         
     </div>   
-<?php include('return.php'); ?>
+	<?php include('return.php'); ?>
 	<?php include('footer.php'); ?>

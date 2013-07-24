@@ -7,6 +7,5 @@
 		</div>
 	</div>	
 	</body>
-	
-		<script type="text/javascript" src="js/windowResizer.js"></script>
+	<script type="text/javascript" src="js/windowResizer.js"></script>
 </html>
