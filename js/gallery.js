@@ -5,8 +5,6 @@ $(function() {
 	$("#gallery .fullview").hide();
 	$("#gallery #play").hide();
 
-	$("#gallery .fullview").css("margin-left", w * 0.5 - 450);
-
 	$("#gallery .batch").hover(function() {
 		var expose = 100;
 		if ($(this).find(".thumbs img").length > 4)
@@ -46,6 +44,7 @@ $(function() {
 		var src = $(this).find("a").attr("src");
 		$("#gallery #preview img").attr("src", src);
 		$("#gallery #preview p").html($(this).find("p").html());
+		$("#gallery .fullview p").html($(this).find("a").attr("title"));
 
 		$("#gallery #play").show();
 
@@ -53,7 +52,6 @@ $(function() {
 		if (src != vidSrc) {
 			vidSrc = src;
 			$("#gallery iframe").attr('src', src);
-			$("#gallery .fullview p").html($(this).find("a").attr("title"));
 		}
 		$("#gallery .thumbs .view.vid a").click(function() {
 			showFullvid();

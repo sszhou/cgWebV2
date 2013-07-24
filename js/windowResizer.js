@@ -1,8 +1,9 @@
+var w = 1024;
+var h = 768;
+
 $(document).ready(function() {
-	var w = 1024;
-	var h = 768;
 	resizer();
-	
+
 	$(window).resize(function() {
 		resizer()
 	});
@@ -22,4 +23,4 @@ $(document).ready(function() {
 		}, 'slow');
 	});
 
-}); 
+});
