@@ -12,8 +12,9 @@
 
 	#gallery h2{
 			margin-bottom:0px;
-			text-align: center;
-			color:#2485df;			
+			text-align: left;
+			color:#555555;		
+			text-transform:uppercase;	
 		}
 	#featured_works {
 		position:relative;
@@ -62,9 +63,9 @@
    margin:1px;
 }
 .view img
-{
-	width:200px;
-	height:144px;
+{	
+	width:auto;
+	height:120px;
 }
 .view:last-child
 {
@@ -110,7 +111,6 @@
 
 #gallery #preview img
 {
-	margin-left:-150px;
 	height:500px;
 }
 #gallery #preview p.caption
@@ -171,7 +171,7 @@
 	width:800px;
 	overflow:hidden;
 	padding:20px;
-	background-color:#333333;
+	background-color:#555555;
 }
 #gallery .fullview img
 {	
@@ -180,7 +180,7 @@
 #gallery .fullview iframe
 {	
 	padding:20px;	
-	background-color:#333333;
+	background-color:#555555;
 	position:relative;
 	overflow:hidden;
 	border:none;
@@ -193,7 +193,7 @@
 	line-height:1.5;
 	font-family:"Lucida Console", Monaco, monospace;
 	color: #FFFFFF;
-	background-color:#333333;
+	background-color:#555555;
 }
 .lb-data .lb-caption {
 	font-weight:normal !important;
