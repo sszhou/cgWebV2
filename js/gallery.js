@@ -44,7 +44,6 @@ $(function() {
 		var src = $(this).find("a").attr("src");
 		$("#gallery #preview img").attr("src", src);
 		$("#gallery #preview p").html($(this).find("p").html());
-		$("#gallery .fullview p").html($(this).find("a").attr("title"));
 
 		$("#gallery #play").show();
 
@@ -53,6 +52,9 @@ $(function() {
 			vidSrc = src;
 			$("#gallery iframe").attr('src', src);
 		}
+		
+		$("#gallery .fullview p").html($(this).find("a").attr("alt"));
+			
 		$("#gallery .thumbs .view.vid a").click(function() {
 			showFullvid();
 		});
