@@ -5,6 +5,16 @@
 		width:820px
 	}
 	
+	#about a {
+			color:#2485df;
+			font-size:inherit;
+		}
+		
+	#about a:hover
+		{
+			background-color: #2485df;
+			color:#FFFFFF;
+		}
 	.text {
 		width:820px !important;
 		margin:20px auto;
@@ -38,16 +48,6 @@
 				
 			}
 		
-		#qualification #intro a
-		{
-			color: #2485df;
-		}
-		#qualification #intro a:hover
-		{
-			background-color: #2485df;
-			color:white;
-		}
-			
 			#qualification p
 			{	
 				margin:20px auto 30px;
@@ -366,22 +366,32 @@
 			}
 			
 		
-		#enrol a, #info a {
-			font-size: 14px;
-			color:#8e8e8e;
+		#enrol a, #info a, #wellington a
+		{
+			color:#8E8E8E;
 			text-decoration:underline;
+			font-size:14px;
 		}
-		
-		#enrol a:hover, #info a:hover {
-			color:#ffffff;
-			background-color:#2485df;
+		#enrol a:hover, #info a:hover, #wellington a:hover {
 			text-decoration:none;
 		}
 		
 		#info {
 			background-color:#ffffff;
 		}
-		
+		#wellington 
+		{
+			margin-bottom:50px;
+		}
+		#wellington h2
+		{
+			width:400px;
+		}
+		#wellington .text p
+		{
+			width:550px;
+			margin:20px auto;
+		}
 		#courses_1 p, #courses_2 p, #courses_3 p, #courses_4 p, #enrol p, #info p {
 			margin-bottom:50px;
 		}

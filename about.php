@@ -35,7 +35,34 @@
                   </ul>
             </div>
         </div>
-        
+        <div class="module" id="wellington">
+	     	     <div class="text"><h2>Why Wellington?<br/>The ‘coolest little capital’</h2>
+	     	     <p>
+	     	     		New Zealand’s capital city is multicultural and full of
+					bright, open-minded people – it’s an ideal environment
+					for international students who wish to study in a lively
+					and supportive environment.
+					</p>
+					<p>
+						Wellington is alive with culture and diversity –
+					which it celebrates by hosting over 40 festivals
+					every year. The city’s creative community is
+					especially dynamic, enjoying festivals for food,
+					art, literature and theatre – with spectacular
+					performances, parades and street stalls.
+					</p>
+					<p>
+						Wellington’s strong interest in film also draws
+					one of the biggest film festivals in the world, as
+					well as filmmakers from around the globe.
+					</p>
+					<p>
+						To find out more about living and studying in Wellington, 
+						<br/>please visit <a href="http://www.i-studentglobal.com/new-zealand/vuw/english/holder.php?C1&highpage=4">Victoria Online Prospectus</a> 
+                		<br/>Or download <a href="https://www.victoria.ac.nz/international/Life-at-Vic/vi-prospectus-2013-web.pdf" target="_blank">Prospectus PDF</a> 		
+					</p>
+	     	     </div>
+	     	 </div>
         <div class="module" id="discipline">
             <div class="text">
                 

@@ -85,6 +85,8 @@
 							 </li>
 							 <li class='has-sub '><a href='about.php#career'><span>Career Opportunity</span></a>
 							 </li>
+							 <li class='has-sub '><a href='about.php#wellington'><span>Welcome to Wellington</span></a>
+							 </li>
 							 <li class='has-sub '><a href='about.php#discipline'><span>Related Courses</span></a>
 							 </li>
 							 <li class='has-sub '><a href='about.php#enrol'><span>Enrollment Process</span></a>
