@@ -37,7 +37,7 @@
 						<a href="http://www.victoria.ac.nz/smsor/study/courses/math-161"><p class="more">
 						<p class="course_name"><span class = "course_code">MATH 161 </span><br/> Discrete Mathematics and Logic</p>
 						<p class="course_description">This course is an introduction to mathematical logic, proofs, sets and relations; basic number theory and polynomials; graphs, trees and networks.</p>
-						<p>Read more &rarr;</p></a>
+						<p class="more">Read more &rarr;</p></a>
 					</div>
 				</div>
             </div>
