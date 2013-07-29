@@ -36,11 +36,12 @@
             </div>
         </div>
         <div class="module" id="wellington">
-	     	     <div class="text"><h2>Why Wellington?<br/>The ‘coolest little capital’</h2>
-	     	     <p>
-	     	     		New Zealand’s capital city is multicultural and full of
+	     	     <div class="text"><h2>Why Wellington?<br/>The ‘coolest little capital’</h2>	     	    
+					
+					<p>
+	     	     		Wellington, the capital city of New Zealand is multicultural and full of
 					bright, open-minded people – it’s an ideal environment
-					for international students who wish to study in a lively
+					for students who wish to study in a lively
 					and supportive environment.
 					</p>
 					<p>
