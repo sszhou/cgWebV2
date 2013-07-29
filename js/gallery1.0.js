@@ -9,7 +9,7 @@ $(function() {
 		var expose = 100;
 		if ($(this).find(".thumbs img").length > 4)
 			expose = 200;
-		$(this).find(".thumbs").stop().delay(500).animate({
+		$(this).find(".thumbs").stop().animate({
 			height : expose
 		});
 	}, function() {
@@ -47,12 +47,8 @@ $(function() {
 
 		$("#gallery #play").show();
 
-		src = "http://player.vimeo.com/video/" + $(this).find("a").attr("id") + "?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff";
-		if (src != vidSrc) {
-			vidSrc = src;
-			$("#gallery iframe").attr('src', src);
-		}
-		
+		vidSrc = "http://player.vimeo.com/video/" + $(this).find("a").attr("id") + "?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff";
+				
 		$("#gallery .fullview p").html($(this).find("a").attr("alt"));
 			
 		$("#gallery .thumbs .view.vid a").click(function() {
@@ -67,8 +63,11 @@ $(function() {
 		hideFullView();
 	});
 	});
-
+	var tempsrc = "";
 	function showFullvid() {
+		tempsrc = $("#gallery iframe").attr('src');
+		if(tempsrc != vidSrc)
+			$("#gallery iframe").attr('src', vidSrc);
 		$("#gallery .fullview img").hide();
 		$("#gallery .fullview iframe").show();
 		$("#gallery .fullview p").html($(this).attr("alt"));

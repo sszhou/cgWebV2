@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<script type="text/javascript" src="js/gallery.js"></script>
+<script type="text/javascript" src="js/gallery1.0.js"></script>
 
 	<div class="module" id="gallery">
 		<h2>Student works</h2>
